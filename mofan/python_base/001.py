@@ -484,5 +484,3 @@ print(re.split(r"[,;\.]","a;b,c.d;e"))  #['a', 'b', 'c', 'd', 'e']
 compile_re = re.compile(r"r[ua]n")
 print(compile_re.search("dog ran to cat"))
 
-
-
