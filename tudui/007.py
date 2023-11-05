@@ -6,13 +6,13 @@ from PIL import Image
 
 writer = SummaryWriter("logs")
 
-image_path = "B:\\python_torch\\data\\train\\ants_image\\0013035.jpg"
-img_PIl = Image.open(image_path)
-image_array = np.array(img_PIl)
-print(type(image_array))
-print(image_array.shape)
-
-writer.add_image("test",image_array,1,dataformats='HWC')
+# image_path = "B:\\python_torch\\data\\train\\ants_image\\0013035.jpg"
+# img_PIl = Image.open(image_path)
+# image_array = np.array(img_PIl)
+# print(type(image_array))
+# print(image_array.shape)
+#
+# writer.add_image("test",image_array,1,dataformats='HWC')
 
 
 
