@@ -45,10 +45,6 @@ for i in range(10):
 print(trans_compose2(img)[0][0][0])
 
 
-
-
-
-
 writer.close()
 
 
